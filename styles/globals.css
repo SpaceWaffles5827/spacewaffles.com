@@ -1,26 +1,45 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+*{
+  font-family: 'Khula', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
 }
-
-a {
-  color: inherit;
-  text-decoration: none;
+.ShopContent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-* {
-  box-sizing: border-box;
+.content{
+  display: flex;
+  justify-content: center;
+  min-width: 1200px;
+  width: 1200px;
+  height: auto;
+  background-color: blanchedalmond;
+  min-height: calc(100vh - 50px) ;
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.content2{
+  width: auto;
+  height: auto;
+  padding: 25px;
+}
+.ProductGrid{
+  padding-right: 30px;
+  padding-left: 30px;
+  width: 1200px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ShopItem{
+  width: 100%;
+  background-color: red;
+}
+.ShopItem img{
+  width: 100%;
+  height: auto;
 }
